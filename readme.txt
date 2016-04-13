@@ -12,7 +12,7 @@ git log    /* look git log */
 
 git status     /* look git status */
 
-git checkout filename    /* Revocation a file's edit */
+git checkout filename    /* change another */
 
 cat filename    /* look file's information */
 
@@ -26,11 +26,18 @@ git checkout -b dev    /* add and merge a fenzhi */
 
 git branch    /* look fenzhi */
 
-git merge dev    /* hebing fenzhi  */
+git merge dev    /* merge fenzhi  */
 
 git branch -d dev    /* delete fenzhi */
 
+git merge --no-ff -m "merge with no-ff" dev    /**/
 
+git log --graph --pretty=oneline --abbrev-commit
 
+git stash list
+
+git remote
+
+git remote -v
 
 
