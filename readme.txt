@@ -22,7 +22,7 @@ git push -u origin master  /* ba bendi cangku fenzhi master neirong tuisong dao 
 
 git clone https://   /* clone a repository */
 
-git checkout -b dev    /* add a fenzhi */
+git checkout -b dev    /* add and merge a fenzhi */
 
 git branch    /* look fenzhi */
 
