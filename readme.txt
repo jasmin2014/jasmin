@@ -2,32 +2,35 @@ https://github.com/jasmin2014/jasmin.git
 
 https://github.com/jasmin2014/githubtest2.git
 
-git init 
+git init  ::--create a git folder
 
-git add filename
+git add filename   /* add a file */
 
-git commit -m "zhushi"
+git commit -m "zhushi"   /* add a "zhushi" */
 
-git log
+git log    /* look git log */
 
-git status
+git status     /* look git status */
 
-git checkout filename
+git checkout filename    /* Revocation a file's edit */
 
-cat filename
+cat filename    /* look file's information */
 
-git remote add origin "https://"
+git remote add origin "https://"     /* add a  repository */
 
-git push -u origin master
+git push -u origin master  /* ba bendi cangku fenzhi master neirong tuisong dao yuan cangku qu */
 
-git clone https://
+git clone https://   /* clone a repository */
 
-git checkout -b dev
+git checkout -b dev    /* add a fenzhi */
 
-git branch
+git branch    /* look fenzhi */
 
+git merge dev    /* hebing fenzhi  */
 
-git merge dev
+git branch -d dev    /* delete fenzhi */
+
+/**===============**/
 
 
 
