@@ -18,6 +18,8 @@ mkdir：         XX (创建一个空目录 XX指目录名)
 
 　　git log          查看历史记录
 
+    git log –pretty=oneline          查看最近的一条历史记录
+
 　　git reset  --hard HEAD^ 或者 git reset  --hard HEAD~ 回退到上一个版本
 
 　　(如果想回退到100个版本，使用git reset –hard HEAD~100 )
@@ -63,5 +65,4 @@ mkdir：         XX (创建一个空目录 XX指目录名)
 　　git remote –v 查看远程库的详细信息
 
 　　git push origin master  Git会把master分支推送到远程库对应的远程分支上
-
 
